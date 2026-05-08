@@ -110,3 +110,36 @@ pleasePaymentAdminDev:
     name: please-payment-admin-dev
     vhost: admin-dev.please-payment.local
     host: admin-dev.please-payment.com
+
+pleasePaymentAdminProd:
+  service:
+    name: please-payment-admin-prod
+    port: 443
+  endpoints:
+    ip: 192.168.1.13
+  ingress:
+    name: please-payment-admin-prod
+    vhost: admin-prod.please-payment.local
+    host: admin.please-payment.com
+
+pleasePaymentMerchantDev:
+  service:
+    name: please-payment-merchant-dev
+    port: 443
+  endpoints:
+    ip: 192.168.1.13
+  ingress:
+    name: please-payment-merchant-dev
+    vhost: merchant-dev.please-payment.local
+    host: merchant-dev.please-payment.com
+
+pleasePaymentMerchantProd:
+  service:
+    name: please-payment-merchant-prod
+    port: 443
+  endpoints:
+    ip: 192.168.1.13
+  ingress:
+    name: please-payment-merchant-prod
+    vhost: merchant-prod.please-payment.local
+    host: merchant.please-payment.com
