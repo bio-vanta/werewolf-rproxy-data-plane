@@ -1,4 +1,4 @@
-cloudflareDns:
+cloudflareDns1:
   zone: "please-protect.com"
   domains: "*.sensor-01.please-protect.com,*.center.please-protect.com"
   proxied: "false"
