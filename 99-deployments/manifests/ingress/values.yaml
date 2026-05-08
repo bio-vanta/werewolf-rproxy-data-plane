@@ -98,3 +98,15 @@ ppCenterDownloads:
     name: center-downloads-proxy
     vhost: downloads.pp-center.local
     host: downloads.center.please-protect.com
+
+### Please Payment ###
+pleasePaymentAdminDev:
+  service:
+    name: please-payment-admin-dev
+    port: 443
+  endpoints:
+    ip: 192.168.1.13
+  ingress:
+    name: please-payment-admin-dev
+    vhost: admin-dev.please-payment.local
+    host: admin-dev.please-payment.com
