@@ -176,3 +176,14 @@ pleasePaymentApiDev:
     name: please-payment-api-dev
     vhost: api-dev.please-payment.local
     host: api-dev.please-payment.com
+
+minIoApi:
+  service:
+    name: minio-api
+    port: 443
+  endpoints:
+    ip: 192.168.1.13
+  ingress:
+    name: minio-api
+    vhost: storage-api.please-payment.local
+    host: storage-api.please-payment.com
