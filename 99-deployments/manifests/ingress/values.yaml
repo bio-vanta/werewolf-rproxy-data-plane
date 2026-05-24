@@ -187,3 +187,14 @@ minIoApi:
     name: minio-api
     vhost: storage-api.please-payment.local
     host: storage-api.please-payment.com
+
+minIoConsole:
+  service:
+    name: minio-console
+    port: 443
+  endpoints:
+    ip: 192.168.1.13
+  ingress:
+    name: minio-console
+    vhost: storage-console.please-payment.local
+    host: storage-console.please-payment.com
