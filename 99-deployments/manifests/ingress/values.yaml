@@ -7,7 +7,7 @@ ppSensorApiDev:
   ingress:
     name: sensor-api-proxy-dev
     vhost: api-dev.sensor.local
-    host: api-dev.sensor-01.please-protect.com
+    host: api-dev.sensor-01.bevorax.com
 
 ppSensorWebDev:
   service:
@@ -18,7 +18,7 @@ ppSensorWebDev:
   ingress:
     name: sensor-web-proxy-dev
     vhost: web-dev.sensor.local
-    host: web-dev.sensor-01.please-protect.com
+    host: web-dev.sensor-01.bevorax.com
 
 ppSensorApiProd: {} # No API in production yet, but we want to keep the structure consistent for when we do have one.
 
@@ -31,7 +31,7 @@ ppSensorWebProd:
   ingress:
     name: sensor-web-proxy-prod
     vhost: web.sensor.local
-    host: web.sensor-01.please-protect.com
+    host: web.sensor-01.bevorax.com
 
 ppCenterOpenCTI:
   service:
@@ -42,7 +42,7 @@ ppCenterOpenCTI:
   ingress:
     name: center-opencti-proxy
     vhost: opencti.pp-center.local
-    host: opencti.center.please-protect.com
+    host: opencti.center.bevorax.com
 
 ppCenterWebProd:
   service:
@@ -53,7 +53,7 @@ ppCenterWebProd:
   ingress:
     name: center-web-proxy-prod
     vhost: center-prod.pp-center.local
-    host: web.center.please-protect.com
+    host: web.center.bevorax.com
 
 ppCenterWebDev:
   service:
@@ -64,7 +64,7 @@ ppCenterWebDev:
   ingress:
     name: center-web-proxy-dev
     vhost: center-dev.pp-center.local
-    host: web-dev.center.please-protect.com
+    host: web-dev.center.bevorax.com
 
 ppCenterApiProd:
   service:
@@ -75,7 +75,7 @@ ppCenterApiProd:
   ingress:
     name: center-api-proxy-prod
     vhost: api-prod.pp-center.local
-    host: api.center.please-protect.com
+    host: api.center.bevorax.com
 
 ppCenterApiDev:
   service:
@@ -86,7 +86,7 @@ ppCenterApiDev:
   ingress:
     name: center-api-proxy-dev
     vhost: api-dev.pp-center.local
-    host: api-dev.center.please-protect.com
+    host: api-dev.center.bevorax.com
 
 ppCenterDownloads:
   service:
@@ -97,7 +97,7 @@ ppCenterDownloads:
   ingress:
     name: center-downloads-proxy
     vhost: downloads.pp-center.local
-    host: downloads.center.please-protect.com
+    host: downloads.center.bevorax.com
 
 ### Please Payment ###
 pleasePaymentAdminDev:
