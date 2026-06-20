@@ -5,7 +5,7 @@ cloudflareDns1:
   ip6Provider: "none"
 
 cloudflareDns2:
-  zone: "please-payment.com"
-  domains: "*.please-payment.com"
+  zone: "bevorax.com"
+  domains: "*.bevorax.com"
   proxied: "false"
   ip6Provider: "none"

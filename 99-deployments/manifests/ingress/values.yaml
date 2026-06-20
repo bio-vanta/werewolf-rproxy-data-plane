@@ -109,7 +109,7 @@ pleasePaymentAdminDev:
   ingress:
     name: please-payment-admin-dev
     vhost: admin-dev.please-payment.local
-    host: admin-dev.please-payment.com
+    host: admin-dev.bevorax.com
 
 pleasePaymentAdminProd:
   service:
@@ -120,7 +120,7 @@ pleasePaymentAdminProd:
   ingress:
     name: please-payment-admin-prod
     vhost: admin-prod.please-payment.local
-    host: admin.please-payment.com
+    host: admin.bevorax.com
 
 pleasePaymentMerchantDev:
   service:
@@ -131,7 +131,7 @@ pleasePaymentMerchantDev:
   ingress:
     name: please-payment-merchant-dev
     vhost: merchant-dev.please-payment.local
-    host: merchant-dev.please-payment.com
+    host: merchant-dev.bevorax.com
 
 pleasePaymentMerchantProd:
   service:
@@ -142,7 +142,7 @@ pleasePaymentMerchantProd:
   ingress:
     name: please-payment-merchant-prod
     vhost: merchant-prod.please-payment.local
-    host: merchant.please-payment.com
+    host: merchant.bevorax.com
 
 pleasePaymentNotiHubDev:
   service:
@@ -153,7 +153,7 @@ pleasePaymentNotiHubDev:
   ingress:
     name: please-payment-notihub-dev
     vhost: notihub-dev.please-payment.local
-    host: notihub-dev.please-payment.com
+    host: notihub-dev.bevorax.com
 
 pleasePaymentNotiHubProd:
   service:
@@ -164,7 +164,7 @@ pleasePaymentNotiHubProd:
   ingress:
     name: please-payment-notihub-prod
     vhost: notihub-prod.please-payment.local
-    host: notihub.please-payment.com
+    host: notihub.bevorax.com
 
 pleasePaymentApiDev:
   service:
@@ -175,7 +175,7 @@ pleasePaymentApiDev:
   ingress:
     name: please-payment-api-dev
     vhost: api-dev.please-payment.local
-    host: api-dev.please-payment.com
+    host: api-dev.bevorax.com
 
 minIoApi:
   service:
@@ -186,7 +186,7 @@ minIoApi:
   ingress:
     name: minio-api
     vhost: storage-api.please-payment.local
-    host: storage-api.please-payment.com
+    host: storage-api.bevorax.com
 
 minIoConsole:
   service:
@@ -197,4 +197,4 @@ minIoConsole:
   ingress:
     name: minio-console
     vhost: storage-console.please-payment.local
-    host: storage-console.please-payment.com
+    host: storage-console.bevorax.com
